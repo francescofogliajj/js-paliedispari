@@ -1,5 +1,5 @@
 // Chiedere all’utente di inserire una parola.
-var parolaUtente = prompt("Inserisci una parola");
+var parolaUtente = prompt("Inserisci una parola").toLowerCase();
 console.log(parolaUtente);
 
 // Creare una funzione per capire se la parola inserita è palindroma.

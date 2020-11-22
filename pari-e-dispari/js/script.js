@@ -1,5 +1,5 @@
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-var sceltaUtente = prompt("Pari o Dispari?");
+var sceltaUtente = prompt("Scegli pari o dispari").toLowerCase();
 console.log(sceltaUtente);
 
 var numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
@@ -22,9 +22,9 @@ function pariDispari(numero) {
 
   var risultato;
   if (numero % 2 == 0) {
-    risultato = "Pari";
+    risultato = "pari";
   } else {
-    risultato = "Dispari";
+    risultato = "dispari";
   }
   return risultato;
 
